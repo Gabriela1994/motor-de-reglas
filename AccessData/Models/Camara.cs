@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace DataAccess.Models
 {
@@ -11,6 +12,7 @@ namespace DataAccess.Models
         public string? Descripcion { get; set; }
         public int? IdEstadoCamara { get; set; }
 
+        [JsonIgnore]
         public virtual EstadoCamara? IdEstadoCamaraNavigation { get; set; }
     }
 }
