@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\AccessData\\DataAccess.csproj": {}
+    "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\AccessData\\DataAccess.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\AccessData\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\AccessData\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\AccessData\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
