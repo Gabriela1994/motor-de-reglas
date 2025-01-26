@@ -57,12 +57,20 @@ namespace motor_de_reglas.Controllers
         [HttpPost("evaluar-infracciones")]
         public void EvaluarInfracciones(List<EventoCamara> eventos)
         {
+            int i = 0;
             foreach(var evento in eventos)
             {
+                i++;
 
+                Console.WriteLine("INDICE INICIO");
+                Console.WriteLine(i);
+                Console.WriteLine("INDICE FINAL");
                 Console.WriteLine("Patente: {0}", evento.Patente);
                 Console.WriteLine("Velocidad: {0} km/hora", evento.Velocidad);
                 Console.WriteLine("Color de semaforo: {0}", evento.ColorSemaforo);
+                Console.WriteLine("------------------------------------------------------------------");
+
+                
             }
         }
     }

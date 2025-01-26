@@ -30,16 +30,21 @@ namespace DataAccess.Context
             {
                 entity.ToTable("Camara");
 
-                entity.Property(e => e.Coordenada)
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("coordenada");
-
                 entity.Property(e => e.Descripcion)
                     .HasColumnType("text")
                     .HasColumnName("descripcion");
 
-                entity.Property(e => e.NumeroCamara).HasColumnName("numero_camara");
+                entity.Property(e => e.Latitud)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("latitud");
+
+                entity.Property(e => e.Longitud)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("longitud");
+
+                entity.Property(e => e.NumeroCamara).HasColumnName("numeroCamara");
 
                 entity.HasOne(d => d.IdEstadoCamaraNavigation)
                     .WithMany(p => p.Camaras)
