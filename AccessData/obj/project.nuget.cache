@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VMnvMa3z4r+p3LwSTVbAg97GH8ZoM+mtJ27zdmvjBsVm/MOhiuwjenImTRk6JMyoPbpETFqsyLvTbkhsPY1/GA==",
+  "dgSpecHash": "Wgxr+/M9JRhataxw61u41GxxmMWnOuZszOt38fe2LSFwrhs6UN8dWpG3gnxD2/R14NAqIn/y0WDiFo4y+nw4WA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\AccessData\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

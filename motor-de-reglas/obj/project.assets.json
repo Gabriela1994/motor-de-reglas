@@ -2401,11 +2401,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\motor-de-reglas\\API-motor-de-reglas.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\motor-de-reglas\\API-motor-de-reglas.csproj",
       "projectName": "API-motor-de-reglas",
-      "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\motor-de-reglas\\API-motor-de-reglas.csproj",
+      "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\motor-de-reglas\\API-motor-de-reglas.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\motor-de-reglas\\obj\\",
+      "outputPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\motor-de-reglas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2423,11 +2423,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj"
+            "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\AccessData\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\AccessData\\DataAccess.csproj"
             },
-            "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\BusinessLogic\\BusinessLogic.csproj"
+            "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\proyecto-motor de reglas\\BusinessLogic\\BusinessLogic.csproj"
             }
           }
         }
