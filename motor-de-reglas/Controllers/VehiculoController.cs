@@ -1,7 +1,6 @@
 ﻿using DataAccess.Models;
 using DataAccess.Context;
 using Microsoft.AspNetCore.Mvc;
-using motor_de_reglas.Clases;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -52,18 +51,6 @@ namespace motor_de_reglas.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-        }
-
-        [HttpPost("evaluar-infracciones")]
-        public void EvaluarInfracciones(List<EventoCamara> eventos)
-        {
-            foreach(var evento in eventos)
-            {
-
-                Console.WriteLine("Patente: {0}", evento.Patente);
-                Console.WriteLine("Velocidad: {0} km/hora", evento.Velocidad);
-                Console.WriteLine("Color de semaforo: {0}", evento.ColorSemaforo);
-            }
         }
     }
 }
