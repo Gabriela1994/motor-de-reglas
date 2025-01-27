@@ -12,3 +12,17 @@ C:\Users\gabri\OneDrive\Escritorio\proyecto-motor de reglas\AccessData\obj\Debug
 C:\Users\gabri\OneDrive\Escritorio\proyecto-motor de reglas\AccessData\obj\Debug\net6.0\DataAccess.pdb
 C:\Users\gabri\OneDrive\Escritorio\proyecto-motor de reglas\AccessData\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
 C:\Users\gabri\OneDrive\Escritorio\proyecto-motor de reglas\AccessData\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\bin\Debug\net6.0\DataAccess.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\obj\Debug\net6.0\DataAccess.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\AccessData\obj\Debug\net6.0\ref\DataAccess.dll
