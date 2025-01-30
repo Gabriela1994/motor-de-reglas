@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using DataAccess.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using DataAccess.Models;
 
 namespace DataAccess.Context
 {
@@ -23,23 +23,27 @@ namespace DataAccess.Context
         public virtual DbSet<Modelo> Modelos { get; set; } = null!;
         public virtual DbSet<TipoVehiculo> TipoVehiculos { get; set; } = null!;
         public virtual DbSet<Vehiculo> Vehiculos { get; set; } = null!;
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Camara>(entity =>
             {
                 entity.ToTable("Camara");
 
-                entity.Property(e => e.Coordenada)
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("coordenada");
-
                 entity.Property(e => e.Descripcion)
                     .HasColumnType("text")
                     .HasColumnName("descripcion");
 
-                entity.Property(e => e.NumeroCamara).HasColumnName("numero_camara");
+                entity.Property(e => e.Latitud)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("latitud");
+
+                entity.Property(e => e.Longitud)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("longitud");
+
+                entity.Property(e => e.NumeroCamara).HasColumnName("numeroCamara");
 
                 entity.HasOne(d => d.IdEstadoCamaraNavigation)
                     .WithMany(p => p.Camaras)
@@ -111,11 +115,6 @@ namespace DataAccess.Context
                     .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("patente");
-
-                entity.HasOne(d => d.IdMarcaNavigation)
-                    .WithMany(p => p.Vehiculos)
-                    .HasForeignKey(d => d.IdMarca)
-                    .HasConstraintName("FK_Vehiculo_Marca");
 
                 entity.HasOne(d => d.IdModeloNavigation)
                     .WithMany(p => p.Vehiculos)
