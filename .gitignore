@@ -43,13 +43,18 @@ bin/
 obj/
 *.exe
 *.dll
+*.cache
+*.editorconfig
+**/bin/
+**/obj/
+**/.vs/
 
 # Archivos de configuración de usuario
-.vscode/
-.idea/
 *.suo
 *.user
 *.vs
+.vscode/
+.idea/
 
 # Paquetes y dependencias
 node_modules/

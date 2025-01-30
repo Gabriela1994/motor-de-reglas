@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using DataAccess.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using DataAccess.Models;
 
 namespace DataAccess.Context
 {
@@ -19,10 +19,14 @@ namespace DataAccess.Context
 
         public virtual DbSet<Camara> Camaras { get; set; } = null!;
         public virtual DbSet<EstadoCamara> EstadoCamaras { get; set; } = null!;
+        public virtual DbSet<EstadoInfraccion> EstadoInfracciones { get; set; } = null!;
+        public virtual DbSet<Infraccion> Infracciones { get; set; } = null!;
         public virtual DbSet<Marca> Marcas { get; set; } = null!;
         public virtual DbSet<Modelo> Modelos { get; set; } = null!;
+        public virtual DbSet<TipoInfraccion> TipoInfracciones { get; set; } = null!;
         public virtual DbSet<TipoVehiculo> TipoVehiculos { get; set; } = null!;
         public virtual DbSet<Vehiculo> Vehiculos { get; set; } = null!;
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Camara>(entity =>
@@ -65,6 +69,64 @@ namespace DataAccess.Context
                     .HasColumnName("nombre");
             });
 
+            modelBuilder.Entity<EstadoInfraccion>(entity =>
+            {
+                entity.ToTable("EstadoInfraccion");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Descripcion)
+                    .HasColumnType("text")
+                    .HasColumnName("descripcion");
+
+                entity.Property(e => e.Nombre)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("nombre");
+            });
+
+            modelBuilder.Entity<Infraccion>(entity =>
+            {
+                entity.ToTable("Infraccion");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Fecha)
+                    .HasColumnType("datetime")
+                    .HasColumnName("fecha");
+
+                entity.Property(e => e.IdEstadoInfraccion).HasColumnName("idEstadoInfraccion");
+
+                entity.Property(e => e.IdTipoInfraccion).HasColumnName("idTipoInfraccion");
+
+                entity.Property(e => e.IdVehiculo).HasColumnName("idVehiculo");
+
+                entity.Property(e => e.Latitud)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("latitud");
+
+                entity.Property(e => e.Longitud)
+                    .HasMaxLength(50)
+                    .IsUnicode(false)
+                    .HasColumnName("longitud");
+
+                entity.HasOne(d => d.IdEstadoInfraccionNavigation)
+                    .WithMany(p => p.Infracciones)
+                    .HasForeignKey(d => d.IdEstadoInfraccion)
+                    .HasConstraintName("FK_Infraccion_EstadoInfraccion");
+
+                entity.HasOne(d => d.IdTipoInfraccionNavigation)
+                    .WithMany(p => p.Infracciones)
+                    .HasForeignKey(d => d.IdTipoInfraccion)
+                    .HasConstraintName("FK_Infraccion_TipoInfraccion");
+
+                entity.HasOne(d => d.IdVehiculoNavigation)
+                    .WithMany(p => p.Infracciones)
+                    .HasForeignKey(d => d.IdVehiculo)
+                    .HasConstraintName("FK_Infraccion_Vehiculo");
+            });
+
             modelBuilder.Entity<Marca>(entity =>
             {
                 entity.ToTable("Marca");
@@ -90,6 +152,22 @@ namespace DataAccess.Context
                     .WithMany(p => p.Modelos)
                     .HasForeignKey(d => d.IdMarca)
                     .HasConstraintName("FK_Modelo_Marca");
+            });
+
+            modelBuilder.Entity<TipoInfraccion>(entity =>
+            {
+                entity.ToTable("TipoInfraccion");
+
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Descripcion)
+                    .HasColumnType("text")
+                    .HasColumnName("descripcion");
+
+                entity.Property(e => e.Nombre)
+                    .HasMaxLength(150)
+                    .IsUnicode(false)
+                    .HasColumnName("nombre");
             });
 
             modelBuilder.Entity<TipoVehiculo>(entity =>
