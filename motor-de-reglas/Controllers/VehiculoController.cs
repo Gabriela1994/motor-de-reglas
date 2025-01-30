@@ -65,6 +65,9 @@ namespace motor_de_reglas.Controllers
                 Console.WriteLine("INDICE INICIO");
                 Console.WriteLine(i);
                 Console.WriteLine("INDICE FINAL");
+                Console.WriteLine("Fecha: {0}", evento.Fecha);
+                Console.WriteLine("Latitud: {0}", evento.Latitud);
+                Console.WriteLine("Longitud: {0}", evento.Longitud);
                 Console.WriteLine("Patente: {0}", evento.Patente);
                 Console.WriteLine("Velocidad: {0} km/hora", evento.Velocidad);
                 Console.WriteLine("Color de semaforo: {0}", evento.ColorSemaforo);
