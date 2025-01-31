@@ -1,5 +1,5 @@
 ﻿using BusinessLogic;
-using DataAccess.Clases;
+using DataAccess.Models;
 using DataAccess.Context;
 using DataAccess.Repository;
 using Microsoft.AspNetCore.Mvc;

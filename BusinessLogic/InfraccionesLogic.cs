@@ -1,6 +1,5 @@
-﻿using DataAccess.Clases;
+﻿using DataAccess.Models;
 using DataAccess.Context;
-using DataAccess.Models;
 using DataAccess.Repository;
 using Newtonsoft.Json;
 using RulesEngine.Models;

@@ -1,4 +1,4 @@
-﻿namespace DataAccess.Clases
+﻿namespace DataAccess.Models
 {
     public class EventoCamara
     {
