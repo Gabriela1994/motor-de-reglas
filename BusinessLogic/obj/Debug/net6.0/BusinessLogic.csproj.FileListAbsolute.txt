@@ -22,3 +22,6 @@ C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\BusinessLogic\obj\Debug\net6.
 C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
 C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
 C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\BusinessLogic\obj\Debug\net6.0\ref\BusinessLogic.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\BusinessLogic\bin\Debug\net6.0\DataAccess.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\BusinessLogic\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete

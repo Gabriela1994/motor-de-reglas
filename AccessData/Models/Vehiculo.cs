@@ -17,11 +17,7 @@ namespace DataAccess.Models
         public string? Chasis { get; set; }
         public int? IdModelo { get; set; }
 
-        [JsonIgnore]
-        public virtual Marca? IdMarcaNavigation { get; set; }
-        [JsonIgnore]
         public virtual Modelo? IdModeloNavigation { get; set; }
-        [JsonIgnore]
         public virtual TipoVehiculo? IdTipoVehiculoNavigation { get; set; }
         public virtual ICollection<Infraccion> Infracciones { get; set; }
     }

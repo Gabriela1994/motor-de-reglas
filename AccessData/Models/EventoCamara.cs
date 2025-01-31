@@ -1,4 +1,4 @@
-﻿namespace motor_de_reglas.Clases
+﻿namespace DataAccess.Clases
 {
     public class EventoCamara
     {

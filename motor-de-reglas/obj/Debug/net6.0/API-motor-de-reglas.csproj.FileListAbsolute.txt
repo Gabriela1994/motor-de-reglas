@@ -160,3 +160,10 @@ C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\obj\Debug\net
 C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\obj\Debug\net6.0\API-motor-de-reglas.pdb
 C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\obj\Debug\net6.0\API-motor-de-reglas.genruntimeconfig.cache
 C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\obj\Debug\net6.0\ref\API-motor-de-reglas.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\bin\Debug\net6.0\FastExpressionCompiler.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\bin\Debug\net6.0\RulesEngine.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\gabri\OneDrive\Escritorio\motor-de-reglas\motor-de-reglas\bin\Debug\net6.0\reglas_infracciones.json

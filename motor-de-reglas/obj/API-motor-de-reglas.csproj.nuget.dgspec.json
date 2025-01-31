@@ -112,7 +112,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -124,6 +128,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RulesEngine": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

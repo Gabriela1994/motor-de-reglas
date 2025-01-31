@@ -1,5 +1,8 @@
+using BusinessLogic;
 using DataAccess.Context;
+using DataAccess.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +12,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<BdInfraccionesContext>(options =>
+
+builder.Services.AddDbContextFactory<BdInfraccionesContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<RepoInfraccion>();
+builder.Services.AddScoped<RepoVehiculo>();
+builder.Services.AddScoped<InfraccionesLogic>();
 
 var app = builder.Build();
 
