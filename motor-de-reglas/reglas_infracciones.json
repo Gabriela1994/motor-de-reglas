@@ -1,0 +1,39 @@
+[
+  {
+    "WorkflowName": "infracciones",
+    "Rules": [
+      {
+        "RuleName": "infraccion_luces",
+        "SuccessEvent": "12",
+        "ErrorMessage": "El vehiculo no llevaba las luces encendidas en la ruta",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "Luces == false"
+      },
+      {
+        "RuleName": "infraccion_semaforo",
+        "SuccessEvent": "2",
+        "ErrorMessage": "No cumplir con las reglas de tránsito: semáforo en rojo",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "ColorSemaforo.Equals(\"Rojo\", StringComparison.OrdinalIgnoreCase)"
+      },
+      {
+        "RuleName": "infraccion_casco",
+        "SuccessEvent": "8",
+        "ErrorMessage": "Circular sin casco protector",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "IdTipoVehiculo == 2 AND PoseeCasco == false"
+      },
+      {
+        "RuleName": "infraccion_velocidad",
+        "SuccessEvent": "1",
+        "ErrorMessage": "Exceso de velocidad",
+        "ErrorType": "Error",
+        "RuleExpressionType": "LambdaExpression",
+        "Expression": "Velocidad > 80"
+      }
+    ]
+  }
+]
