@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "Ve6Aq0vnJx2I9O35NVdfhq773lc0DGOAMBY8r5m00ECTFSyKEuCnA5jpCiTrp/pA/rhII3qPJPZ2a4E/6okVEA==",
-=======
-  "dgSpecHash": "1spTtpPv1vGgkf8YsuLIX/xnaVL4bSoHokzHdUYNKRxqfkegItPZMi1qKmrtpk5vILfkLuV2JAdojVoxU526HA==",
->>>>>>> main
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\motor-de-reglas\\API-motor-de-reglas.csproj",
   "expectedPackageFiles": [

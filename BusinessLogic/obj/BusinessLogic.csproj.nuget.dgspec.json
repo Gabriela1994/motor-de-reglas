@@ -4,7 +4,6 @@
     "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\BusinessLogic\\BusinessLogic.csproj": {}
   },
   "projects": {
-<<<<<<< HEAD
     "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -13,16 +12,6 @@
         "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\AccessData\\obj\\",
-=======
-    "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\BusinessLogic\\BusinessLogic.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\BusinessLogic\\BusinessLogic.csproj",
-        "projectName": "BusinessLogic",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\motor-de-reglas\\BusinessLogic\\obj\\",
->>>>>>> main
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
