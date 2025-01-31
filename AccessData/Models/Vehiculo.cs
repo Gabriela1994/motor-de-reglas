@@ -17,8 +17,16 @@ namespace DataAccess.Models
         public string? Chasis { get; set; }
         public int? IdModelo { get; set; }
 
+<<<<<<< HEAD
+=======
+        [JsonIgnore]
+>>>>>>> main
         public virtual Modelo? IdModeloNavigation { get; set; }
         public virtual TipoVehiculo? IdTipoVehiculoNavigation { get; set; }
+<<<<<<< HEAD
+=======
+        [JsonIgnore]
+>>>>>>> main
         public virtual ICollection<Infraccion> Infracciones { get; set; }
     }
 }
